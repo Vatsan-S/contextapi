@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  height: 100px;
+  padding: 8px;
+  background-color: #28282B;  
+  display: flex;
+  
+}
+.navContainer{
+  height: 50%;
+  width: 100%;
+  max-width: 1440px;
+  justify-content: space-between;
+  display: flex;
+  margin: auto auto;
+}
+.logo{
+  /* background-color: green; */
+  /* line-height: 1.5; */
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.cart{
+  padding: 4px 16px;
+  position: relative;
+}
+.cartSpan{
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  color: aliceblue;
+  border-radius: 50%;
+  padding: 14px;
+  margin: 4px;
+ }
+
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 32px auto;
+  padding-bottom: 200px;
+}
+
+.wrapper{
+  padding: 16px;
+  
+}
+.card{
+  height: 420px;
+}
+
+.cardImage{
+  height: 250px;
+  overflow: hidden;
+}
+.cardImage img{
+  height: auto;
+  width: 100%;
+}
+.content{
+  padding: 16px 8px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.bottom-content{
+  position: absolute;
+  right: 16px;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: #28282B;
+  position: fixed;
+  bottom: 0;
+  padding: 8px;
+}
+
+.footerContainer{
+  max-width: 1440px;
+  width: auto;
+  height: 100px;
+  /* border: solid 1px red; */
+  margin: auto;
+}
+
+.footerPara{
+  color: white;
+  font-weight: medium;
+}
+
+.none{
+  display: none;
+  
+}
+.quantity{
+  display: flex;
+  gap:8px
+}
+
