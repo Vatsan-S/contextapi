@@ -136,7 +136,7 @@ const App = () => {
           );
         })}
       </div>
-      <ProductList.Provider value={[productList, totalCount, totalPrice]}>
+      <ProductList.Provider value={[totalCount, totalPrice]}>
         <Footer />
       </ProductList.Provider>
     </div>

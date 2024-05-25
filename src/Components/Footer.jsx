@@ -5,7 +5,7 @@ import { ProductList } from "./Context";
 
 const Footer = () => {
   let totalQty = 0;
-  const [value, totalCount, totalPrice] = useContext(ProductList);
+  const [totalCount, totalPrice] = useContext(ProductList);
 
   return (
     <div className="footer">
